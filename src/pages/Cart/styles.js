@@ -44,7 +44,7 @@ export const ProductTable = styled.table`
   }
 
   img {
-    height: 100pz;
+    height: 100px;
   }
 
   strong {

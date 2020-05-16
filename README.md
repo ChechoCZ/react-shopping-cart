@@ -13,10 +13,26 @@ The backend is mocked with [json-server](https://github.com/typicode/json-server
 
 ### How to run
 
+##### Backend:
+Make sure you have installed [json-server](https://github.com/typicode/json-server). 
+```
+npm install -g json-server
+```
+Then start the server:
+```
+json-server server.json -p 3333
+```
+
+##### Frontend:
+Install dependencies:
+```
+yarn
+```
+Then run:
 ```
 yarn start
 ```
 
-Runs the app in the development mode.<br />
+Runs the app in development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
